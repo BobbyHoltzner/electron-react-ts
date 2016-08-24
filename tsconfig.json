@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "sourceMap": false,
+    "allowJs": false,
+    "jsx": "react",
+    "target": "ES6",
+    "experimentalDecorators": true,
+    "outDir": "build/"
+  },
+  "compileOnSave": false,
+  "filesGlob": [
+    "**/*.ts",
+    "**/*.tsx",
+    "!node_modules/**"
+  ],
+  "files": [
+    "src/index.tsx"
+  ]
+}
